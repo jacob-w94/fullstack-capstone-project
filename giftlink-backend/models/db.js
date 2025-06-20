@@ -25,7 +25,7 @@ async function connectToDatabase() {
         console.error("Failed to connect to MongoDB", e);
     }
 
-    return dbInstanceF
+    return dbInstance
 }
 
 module.exports = connectToDatabase;
