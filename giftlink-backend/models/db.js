@@ -12,20 +12,13 @@ async function connectToDatabase() {
     if (dbInstance) {
         return dbInstance
     };
+    console.log("Connecting to MongoDB with URL:", url);
 
     const client = new MongoClient(url);
 
-    try {
-        await client.connect();
-
-        dbInstance = client.db(dbName);
-
-        console.log("connected to mongodb and database giftdb")
-    } catch (e) {
-        console.error("Failed to connect to MongoDB", e);
-    }
-
-    return dbInstance
+    await client.connect();
+    dbInstance = client.db(dbName);
+    return dbInstance;
 }
 
 module.exports = connectToDatabase;

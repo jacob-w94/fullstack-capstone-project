@@ -5,32 +5,32 @@ html {
 /* Primary color for headers and important buttons */
 .custom-card-title,
 .btn-primary {
-  background-color: #0056b3; /* Strong, confident blue */
+  background-color: #0e3386; /* Strong, confident blue */
   color: white; /* For text on primary color background */
 }
 
 /* Secondary color for hover states and highlights */
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #009688; /* Teal */
+  background-color: #0b2869; /* Teal */
 }
 
 /* General background color */
 body,
 .page-background {
-  background-color: #f4f4f4; /* Light grey */
+  background-color: #1f1f1f; /* Light grey */
   margin-right: calc(100vw - 100%);
 }
 
 /* Background color for cards */
 .card {
-  background-color: #ffffff; /* White */
+  background-color: #3d3d3d; /* White */
 }
 
 /* Text color */
 .card-title,
 .card-text {
-  color: #333333; /* Darker grey */
+  color: #ffffff; /* Darker grey */
 }
 
 /* Subtle accent color */
@@ -133,7 +133,7 @@ body,
 .nav-item .nav-link {
   font-size: 1.1rem; /* Larger font size for nav links */
   font-weight: bold; /* Bold font weight for emphasis */
-  color: #0056b3; /* Choose a color that stands out */
+  color: #0e3386; /* Choose a color that stands out */
 }
 
 /* Change the background color of the navbar */
@@ -144,7 +144,7 @@ body,
 
 /* Add a hover effect to nav links */
 .nav-item .nav-link:hover {
-  color: #004085; /* A darker shade for hover state */
+  color: #0b2869; /* A darker shade for hover state */
   text-decoration: none; /* Optional: Removes the underline on hover */
 }
 
