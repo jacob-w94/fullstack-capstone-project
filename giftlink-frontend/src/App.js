@@ -4,8 +4,10 @@ import MainPage from './components/MainPage/MainPage';
 import Navbar from './components/Navbar/Navbar';
 import LoginPage from './components/LoginPage/LoginPage';
 import RegisterPage from './components/RegisterPage/RegisterPage';
+import SearchPage from './components/SearchPage/SearchPage'; // 👈 added this line
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 function App() {
     const navigate = useNavigate();
     return (
