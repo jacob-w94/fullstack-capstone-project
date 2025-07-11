@@ -96,6 +96,10 @@
     background-color: #00796b;
 }
 
+h5 {
+    color: white !important
+}
+
 @media (max-width: 768px) {
     .search-bar .form-control,
     .search-bar .btn {
